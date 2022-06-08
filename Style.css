@@ -1,0 +1,194 @@
+header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  color: #747474;
+}
+.Title {
+  text-align: center;
+  justify-items: center;
+  margin-top: 8%;
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px auto 0px auto;
+}
+.p1 {
+  width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+.p2 {
+  width: 400px;
+  text-align: center;
+  margin-top: 20px;
+}
+h1 {
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+h2,
+h3 {
+  color: #00b39b;
+}
+h1,
+h2,
+h3 {
+  margin: 1em 0;
+  font-family: Work Sans, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: -0.3px;
+}
+.cards {
+  padding: top 50px;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 100px auto 0px auto;
+}
+.card1 {
+  width: 300px;
+  text-align: left;
+  margin-top: 20px;
+  background: #00ccb1;
+  color: #fff;
+  border-radius: 15px;
+  height: 345px;
+  padding: 10px 10px 0px 20px;
+}
+.card2 {
+  width: 300px;
+  text-align: left;
+  margin-top: 20px;
+  color: #fff;
+  background: #3d83df;
+  border-radius: 15px;
+  height: 345px;
+  padding: 10px 10px 0px 20px;
+}
+.card3 {
+  width: 300px;
+  text-align: left;
+  margin-top: 20px;
+  color: #fff;
+  background: #1b2734;
+  border-radius: 15px;
+  height: 345px;
+  padding: 10px 10px 0px 20px;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+
+.stat {
+  background-color: #e5faf8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  margin-top: 70px;
+  width: 100%;
+}
+.Logolarge {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .c14 {
+  padding: top 50px;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 100px auto 0px auto;
+} */
+
+.x {
+  width: 200px;
+  margin-top: 30px;
+  background: white;
+  border-radius: 20px;
+  height: 200px;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.8125em;
+}
+.C14 {
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 100px;
+}
+
+.text {
+  width: 30%;
+  text-align: center;
+  align-items: center;
+  margin: 100px auto 0px auto;
+}
+
+.countries {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 50px auto 100px auto;
+}
+
+.s {
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  align-items: center;
+  padding-top: 10px;
+}
+.y {
+  padding-top: 20px;
+}
+button:hover {
+  background-color: blue;
+}
+button {
+  background-color: #3d83df;
+  padding: 0px;
+  color: white;
+  border: none;
+  height: 20px;
+  width: 100px;
+}
+.Join {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 40px;
+  /* font-size: 1.8em; */
+}
+footer {
+    text-align: center;
+    font-size : 12px;
+}

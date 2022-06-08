@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\css-workshop"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Projet layout Css"
+	}
+}
