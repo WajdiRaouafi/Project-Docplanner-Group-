@@ -8,13 +8,29 @@ header {
   align-items: center;
   background-color: white;
 }
+.dropdown-list {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .dropdown-list {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  /*  margin: 0;
+  padding: 0; */
+}
+a{
+ text-decoration: none;
+  
 }
 li {
-  display: inline;
+  width: 80px;
+  text-decoration: none;
 }
 
 body {
@@ -48,10 +64,13 @@ h1 {
   font-size: 2.125rem;
   color: #00b39b;
 }
-h2,
-h3 {
+h2, h3 {
   color: #00b39b;
 }
+.H2,h2{
+  color : white ;
+}
+
 h1,
 h2,
 h3 {
@@ -60,6 +79,7 @@ h3 {
   font-weight: 300;
   letter-spacing: -0.3px;
 }
+
 .cards {
   padding: top 50px;
   width: 70%;
@@ -189,6 +209,25 @@ button {
   /* font-size: 1.8em; */
 }
 footer {
-    text-align: center;
-    font-size : 12px;
+  text-align: center;
+  font-size: 12px;
+  color: #747474;
+
+
+}
+.select {
+  padding-left: 20px;
+  text-decoration: underline white;
+}
+.choice1 {
+  border: none;
+  background: #00ccb1;
+  font-size: 20px;
+  font-weight: 20px;
+  color: white;
+  text-decoration: underline white;
+}
+option {
+  background-color: white;
+  color: black;
 }
